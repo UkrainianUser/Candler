@@ -257,11 +257,13 @@ button {
 		margin-bottom: 20px;
 	}
 	.hero__text {
-		font-size: 10px;
 		margin-bottom: 20px;
 	}
 	.hero__img {
 		left: 180px;
+	}
+	.about__content {
+		min-width: 20px;
 	}
 }
 
