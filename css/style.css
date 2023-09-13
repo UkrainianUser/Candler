@@ -272,7 +272,22 @@ button {
 		margin-bottom: 20px;
 	}
 	.about__list {
-		margin-left: 21px;
+		margin-left: 27px;
+		margin-bottom: 33px;
+		gap: 0 10px;
+	}
+	.about__item-text {
+		font-style: 6px;
+	}
+	.about__item-img {
+		margin-bottom: 6px;
+	}
+	.about__item-img--1,
+	.about__item-img--3 {
+		width: 120px;
+	}
+	.about__item-img--2 {
+		width: 190px;
 	}
 }
 
@@ -346,9 +361,35 @@ button {
 		width: 308px;
 		left: 167px;
 	}
+	.about__content {
+		min-width: 170px;
+	}
+	.about__list {
+		margin-left: 0;
+		padding-left: 10px;
+		gap: 0 5px;
+		align-items: flex-end;
+		margin-bottom: 0;
+	}
+	.about__item-text {
+		display: none;
+	}
+	.about__item-img--1,
+	.about__item-img--3 {
+		width: 80px;
+	}
+	.about__item-img--2 {
+		width: 140px;
+	}
+	.about__inner {
+		align-items: flex-end;
+	}
 }
 
 @media (max-width: 360px) {
+	body {
+		font-size: 8px;
+	}
 	.hero__content {
 		width: 200px;
 		padding: 20px 0 0;
@@ -365,5 +406,24 @@ button {
 	}
 	.hero__img-l {
 		width: 185px;
+	}
+	.about {
+		padding-top: 25px;
+		padding-bottom: 10px;
+	}
+	.about__content {
+		min-width: 233px;
+	}
+	.title {
+		margin-bottom: 10px;
+	}
+	.about__list {
+		padding-left: 12px;
+		padding-bottom: 30px;
+		margin-left: 12px;
+		gap: 0 15px;
+	}
+	.about__item-img--2 {
+		display: none;
 	}
 }
