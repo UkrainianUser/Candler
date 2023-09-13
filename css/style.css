@@ -263,7 +263,16 @@ button {
 		left: 180px;
 	}
 	.about__content {
-		min-width: 20px;
+		min-width: 200px;
+	}
+	.title {
+		font-size: 15px;
+	}
+	.about__title {
+		margin-bottom: 20px;
+	}
+	.about__list {
+		margin-left: 21px;
 	}
 }
 
