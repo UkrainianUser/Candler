@@ -204,10 +204,12 @@ button {
 	grid-template-columns: auto auto;
 	padding-bottom: 92px;
 }
-.products__content {
+.products__content,
+.courses__content {
 	gap: 50px 90px;
 }
-.products__item {
+.products__item,
+.courses__item {
 	width: 290px;
 	margin: 0 auto;
 	text-align: center;
@@ -215,7 +217,8 @@ button {
 	flex-direction: column;
 	justify-content: space-between;
 }
-.products__item-img {
+.products__item-img,
+.courses__item-img {
 	margin-bottom: 8px;
 }
 .products__item-price {
@@ -224,13 +227,15 @@ button {
 	font-family: "Yeseva One", cursive;
 	font-weight: 400;
 }
-.products__item-title {
+.products__item-title,
+.courses__item-title {
 	margin-bottom: 16px;
 	font-size: 16px;
 	font-family: "Yeseva One", cursive;
 	font-weight: 400;
 }
-.products__item-text {
+.products__item-text,
+.courses__item-text {
 	margin-bottom: 27px;
 	font-size: 12px;
 }
@@ -248,16 +253,51 @@ button {
 	gap: 40px;
 }
 .creating__text {
+	font-size: 14px;
 	width: 174px;
 }
 .creating__num {
-	font-family: Yeseva One;
+	font-family: "Yeseva One", cursive;
 	font-size: 30px;
 	font-weight: 400;
 	color: #bea495;
 }
 .creating__num--right {
 	margin-left: auto;
+}
+.courses__item .button {
+	padding: 13px 16px;
+}
+
+.courses__item-box {
+	position: relative;
+	color: #ffffff;
+	font-family: "Yeseva One", cursive;
+}
+.courses__name,
+.courses__time,
+.courses__price {
+	background-color: #bea495;
+	position: absolute;
+}
+.courses__name {
+	padding: 15px;
+	left: 10px;
+	top: 45%;
+}
+.courses__time {
+	padding: 7px 10px;
+	left: 10px;
+	top: 60%;
+}
+.courses__time span {
+	font-family: "Comfortaa", cursive;
+	font-size: 10px;
+}
+.courses__price {
+	padding: 19px 10px;
+	right: 0;
+	bottom: 2px;
 }
 
 .footer {
@@ -307,9 +347,15 @@ button {
 		padding-left: 20px;
 		padding-right: 20px;
 	}
+	.section__inner {
+		grid-template-columns: 220px auto;
+	}
 	.section__text {
 		font-size: 10px;
 	}
+	/* .section__descr {
+		width: 300px;
+	} */
 	.hero__content {
 		width: 333px;
 		padding: 95px 0 70px;
@@ -332,6 +378,14 @@ button {
 	.products__content {
 		gap: 67px;
 	}
+	.courses__content {
+		gap: 35px;
+	}
+	.courses__name,
+	.courses__time,
+	.courses__price {
+		font-size: 11px;
+	}
 }
 
 @media (max-width: 900px) {
@@ -352,17 +406,21 @@ button {
 	.footer__social {
 		justify-content: center;
 	}
-	.products__content {
+	.products__content,
+	.courses__content {
 		gap: 30px 16px;
 	}
-	.products__item {
+	.products__item,
+	.courses__item {
 		width: 200px;
 	}
-	.products__item-img {
+	.products__item-img,
+	.courses__item-img {
 		width: 200px;
 		margin-bottom: 6px;
 	}
-	.products__item-text {
+	.products__item-text,
+	.courses__item-text {
 		font-size: 8px;
 	}
 	.button {
@@ -373,7 +431,8 @@ button {
 		font-size: 12px;
 		margin-bottom: 7px;
 	}
-	.products__item-title {
+	.products__item-title,
+	.courses__item-title {
 		font-size: 12px;
 		margin-bottom: 9px;
 	}
@@ -386,6 +445,18 @@ button {
 	}
 	.creating__text {
 		width: 94px;
+	}
+	.courses__name {
+		padding: 10px;
+		left: -1px;
+	}
+	.courses__time {
+		padding: 5px 7px;
+		left: -1px;
+	}
+	.courses__price {
+		padding: 12px 7px;
+		right: -8px;
 	}
 }
 
@@ -503,7 +574,8 @@ button {
 	.footer__menu-list {
 		flex-direction: column;
 	}
-	.products__content {
+	.products__content,
+	.courses__content {
 		gap: 25px 40px;
 	}
 }
@@ -570,7 +642,8 @@ button {
 	.about__inner {
 		align-items: flex-end;
 	}
-	.products__content {
+	.products__content,
+	.courses__content {
 		gap: 40px 7px;
 	}
 	.creating__item img {
@@ -579,10 +652,12 @@ button {
 }
 
 @media (max-width: 404px) {
-	.products__item {
+	.products__item,
+	.courses__item {
 		width: 150px;
 	}
-	.products__item-img {
+	.products__item-img,
+	.courses__item-img {
 		width: 150px;
 	}
 	.creating__content {
@@ -594,6 +669,14 @@ button {
 	}
 	.creating__text {
 		width: 72px;
+	}
+	.courses__content {
+		grid-template-columns: auto;
+		gap: 41px;
+	}
+	.courses__item,
+	.courses__item-img {
+		width: 255px;
 	}
 }
 
@@ -649,10 +732,12 @@ button {
 		font-size: 10px;
 		margin-bottom: 5px;
 	}
-	.products__item-title {
+	.products__item-title,
+	.courses__item-title {
 		font-size: 10px;
 	}
-	.products__item-text {
+	.products__item-text,
+	.courses__item-text {
 		margin-bottom: 16px;
 	}
 	.creating__text {
