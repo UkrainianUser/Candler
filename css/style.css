@@ -483,6 +483,9 @@ button {
 		margin-bottom: 30px;
 		text-align: center;
 	}
+	.creating__num {
+		font-size: 20px;
+	}
 }
 
 @media (max-width: 500px) {
@@ -567,14 +570,20 @@ button {
 	.about__inner {
 		align-items: flex-end;
 	}
+	.products__content {
+		gap: 40px 7px;
+	}
 	.creating__item img {
 		width: 66px;
 	}
 }
 
 @media (max-width: 404px) {
-	.products__content {
-		gap: 40px 7px;
+	.products__item {
+		width: 150px;
+	}
+	.products__item-img {
+		width: 150px;
 	}
 	.creating__content {
 		gap: 20px 5px;
@@ -631,12 +640,6 @@ button {
 	}
 	.about__item-img--2 {
 		display: none;
-	}
-	.products__item {
-		width: 150px;
-	}
-	.products__item-img {
-		width: 150px;
 	}
 	.button {
 		font-size: 8px;
