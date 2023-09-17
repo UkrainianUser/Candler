@@ -335,6 +335,65 @@ button {
 	font-size: 10px;
 }
 
+.reviews__content {
+	padding-bottom: 110px;
+}
+.reviews__descr {
+	margin-right: 20px;
+}
+.reviews__item {
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 0 16px;
+	align-items: center;
+}
+.reviews__item-video {
+	position: relative;
+}
+.reviews__video-btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: transparent;
+}
+.reviews__item-social {
+	margin-bottom: 12px;
+}
+.reviews__item-name {
+	margin-bottom: 15px;
+	font-size: 16px;
+	font-family: "Yeseva One", cursive;
+}
+.reviews__item-text {
+	margin-bottom: 15px;
+}
+.reviews__item-content {
+	padding-bottom: 70px;
+}
+.reviews__btn {
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+}
+.reviews__slider {
+	width: 760px;
+	overflow: hidden;
+}
+.reviews__content .swiper-pagination {
+	bottom: 50px;
+}
+.swiper-pagination-bullet {
+	background-color: #bea495;
+	width: 53px;
+	height: 4px;
+	border-radius: 0;
+	opacity: 1;
+}
+.swiper-pagination-bullet-active {
+	background-color: #7b6152;
+}
+
 .footer {
 	padding-top: 40px;
 	padding-bottom: 35px;
