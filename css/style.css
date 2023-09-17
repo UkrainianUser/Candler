@@ -300,6 +300,41 @@ button {
 	bottom: 2px;
 }
 
+.mentors {
+	background-color: #a5978e;
+	padding: 80px 0 60px;
+	color: #ffffff;
+	margin-bottom: 150px;
+}
+.mentors__content {
+	padding-bottom: 0;
+	gap: 75px;
+}
+.mentors__item {
+	position: relative;
+}
+.mentors__img {
+	width: 220px;
+	height: 220px;
+}
+.mentors__box {
+	background-color: #7b6152;
+	text-align: center;
+	position: absolute;
+	bottom: 13px;
+	right: 33px;
+	padding: 10px 14px;
+	width: 165px;
+	z-index: 4;
+}
+.mentors__name {
+	font-size: 12px;
+	font-family: "Yeseva One", cursive;
+}
+.mentors__box-text {
+	font-size: 10px;
+}
+
 .footer {
 	padding-top: 40px;
 	padding-bottom: 35px;
@@ -353,9 +388,6 @@ button {
 	.section__text {
 		font-size: 10px;
 	}
-	/* .section__descr {
-		width: 300px;
-	} */
 	.hero__content {
 		width: 333px;
 		padding: 95px 0 70px;
@@ -385,6 +417,12 @@ button {
 	.courses__time,
 	.courses__price {
 		font-size: 11px;
+	}
+	.mentors {
+		padding: 50px 0;
+	}
+	.mentors__content {
+		gap: 30px 20px;
 	}
 }
 
@@ -517,6 +555,25 @@ button {
 	.creating__content {
 		gap: 35px 25px;
 	}
+	.mentors__content {
+		gap: 30px 40px;
+	}
+	.mentors__img {
+		width: 142px;
+		height: 148px;
+	}
+	.mentors__box {
+		bottom: 8px;
+		right: -24px;
+		padding: 6px 9px 10px;
+		width: 109px;
+	}
+	.mentors__name {
+		font-size: 8px;
+	}
+	.mentors__box-text {
+		font-size: 7px;
+	}
 }
 
 @media (max-width: 640px) {
@@ -556,6 +613,10 @@ button {
 	}
 	.creating__num {
 		font-size: 20px;
+	}
+	.mentors__box {
+		right: auto;
+		left: 80px;
 	}
 }
 
@@ -649,6 +710,9 @@ button {
 	.creating__item img {
 		width: 66px;
 	}
+	.mentors {
+		margin-bottom: 50px;
+	}
 }
 
 @media (max-width: 404px) {
@@ -677,6 +741,24 @@ button {
 	.courses__item,
 	.courses__item-img {
 		width: 255px;
+	}
+	.mentors__content {
+		grid-template-columns: auto;
+	}
+	.mentors__img {
+		width: 206px;
+		height: 220px;
+	}
+	.mentors__box {
+		bottom: 15px;
+		left: 148px;
+		width: 150px;
+	}
+	.mentors__name {
+		font-size: 12px;
+	}
+	.mentors__box-text {
+		font-size: 10px;
 	}
 }
 
