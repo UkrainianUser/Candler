@@ -577,7 +577,11 @@ button {
 		gap: 20px 5px;
 	}
 	.creating__item {
+		width: 150px;
 		gap: 0 16px;
+	}
+	.creating__text {
+		width: 72px;
 	}
 }
 
@@ -647,11 +651,5 @@ button {
 	}
 	.creating__text {
 		font-size: 6px;
-	}
-	.creating__text {
-		width: 72px;
-	}
-	.creating__item {
-		width: 150px;
 	}
 }
