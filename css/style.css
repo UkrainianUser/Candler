@@ -393,6 +393,19 @@ button {
 .swiper-pagination-bullet-active {
 	background-color: #7b6152;
 }
+.quality__slider {
+	width: 1135px;
+	overflow: hidden;
+}
+.quality__descr {
+	margin-right: 20px;
+}
+.quality__content {
+	padding-bottom: 114px;
+}
+.quality__content .swiper-pagination {
+	bottom: 50px;
+}
 
 .footer {
 	padding-top: 40px;

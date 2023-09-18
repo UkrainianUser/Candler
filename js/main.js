@@ -11,3 +11,12 @@ const swiperOne = new Swiper(".reviews__slider", {
 		el: ".swiper-pagination",
 	},
 });
+
+const swiperTwo = new Swiper('.quality__slider', {
+  loop: true,
+	slidesPerView: 3,
+	spaceBetween: 20,
+  pagination: {
+    el: '.swiper-pagination',
+  },
+});
