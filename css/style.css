@@ -496,6 +496,15 @@ button {
 	.mentors__content {
 		gap: 30px 20px;
 	}
+	.reviews__slider {
+		width: 690px;
+	}
+	.quality__content img {
+		width: 280px;
+	}
+	.quality__slider {
+		width: 880px;
+	}
 }
 
 @media (max-width: 900px) {
@@ -646,6 +655,31 @@ button {
 	.mentors__box-text {
 		font-size: 7px;
 	}
+	.reviews__item-video {
+		width: 200px;
+	}
+	.reviews__item-img {
+		width: 200px;
+		height: 200px;
+	}
+	.reviews__video-btn {
+		width: 50px;
+		height: 50px;
+	}
+	.reviews__video-btn img {
+		width: 50px;
+		height: 50px;
+	}
+	.reviews__slider {
+		width: 447px;
+	}
+	.reviews__item-content {
+		padding-bottom: 45px;
+	}
+	.reviews__btn {
+		font-size: 8px;
+		padding: 10px 20px;
+	}
 }
 
 @media (max-width: 640px) {
@@ -784,6 +818,15 @@ button {
 	}
 	.mentors {
 		margin-bottom: 50px;
+	}
+	.reviews__content .swiper-pagination {
+		text-align: center;
+	}
+	.quality__content img {
+		width: 200px;
+	}
+	.reviews__slider {
+		width: 620px;
 	}
 }
 

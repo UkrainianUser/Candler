@@ -12,11 +12,19 @@ const swiperOne = new Swiper(".reviews__slider", {
 	},
 });
 
-const swiperTwo = new Swiper('.quality__slider', {
-  loop: true,
+const swiperTwo = new Swiper(".quality__slider", {
+	loop: true,
 	slidesPerView: 3,
 	spaceBetween: 20,
-  pagination: {
-    el: '.swiper-pagination',
-  },
+	pagination: {
+		el: ".swiper-pagination",
+	},
+	breakpoints: {
+		480: {
+			slidesPerView: 2,
+		},
+		360: {
+			slidesPerView: 1,
+		},
+	},
 });
