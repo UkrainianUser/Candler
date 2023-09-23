@@ -827,6 +827,27 @@ button {
 	.mentors {
 		margin-bottom: 50px;
 	}
+	.reviews__item {
+		grid-template-columns: auto;
+		text-align: center;
+	}
+	.reviews__slider {
+		width: 250px;
+		margin: 0 auto;
+	}
+	.reviews__item-img {
+		width: 250px;
+		margin: 0 auto 20px;
+	}
+	.reviews__item-video {
+		width: 250px;
+	}
+	.reviews__btn {
+		bottom: 0;
+		left: 0;
+		margin: 0 auto;
+		max-width: 100px;
+	}
 	.reviews__content .swiper-pagination {
 		text-align: center;
 	}
@@ -886,27 +907,6 @@ button {
 	}
 	.mentors__box-text {
 		font-size: 10px;
-	}
-	.reviews__item {
-		grid-template-columns: auto;
-		text-align: center;
-	}
-	.reviews__slider {
-		width: 250px;
-		margin: 0 auto;
-	}
-	.reviews__item-img {
-		width: 250px;
-		margin: 0 auto 20px;
-	}
-	.reviews__item-video {
-		width: 250px;
-	}
-	.reviews__btn {
-		bottom: 0;
-		left: 0;
-		margin: 0 auto;
-		max-width: 100px;
 	}
 }
 
