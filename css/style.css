@@ -407,6 +407,78 @@ button {
 	bottom: 50px;
 }
 
+.promo {
+	background-image: url(/images/promo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 140px 0;
+}
+.promo__inner {
+	display: flex;
+	align-items: center;
+	gap: 110px;
+}
+.promo__text {
+	font-family: "Yeseva One", cursive;
+	font-size: 40px;
+	color: #ffffff;
+	padding-left: 56px;
+	max-width: 765px;
+}
+.promo__link {
+	color: #272727;
+	background-color: #ffbd59;
+	display: inline-block;
+	padding: 14px 25px 12px;
+	min-width: 135px;
+	text-align: center;
+}
+
+.contacts {
+	padding: 150px 0 50px;
+}
+.contacts__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.form {
+	background-color: #ffffff;
+	width: 664px;
+	padding: 75px 42px 67px;
+}
+.form__title {
+	font-family: "Yeseva One", cursive;
+	font-size: 40px;
+	margin-bottom: 60px;
+}
+.form__input {
+	background-color: #ffffff;
+	border: none;
+	border-bottom: 1px solid #000000;
+	width: 100%;
+	display: block;
+	margin-bottom: 14px;
+	padding: 7px 10px;
+	color: #000000;
+}
+.form__input::placeholder {
+	color: #b3b3b3;
+	font-family: Comfortaa;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+}
+.form__btn {
+	background-color: #ffbd59;
+	font-family: Comfortaa;
+	font-size: 14px;
+	color: #272727;
+	margin-top: 36px;
+	padding: 17px 34px;
+}
+
 .footer {
 	padding-top: 40px;
 	padding-bottom: 35px;
@@ -449,6 +521,9 @@ button {
 	}
 	.reviews__slider {
 		width: 690px;
+	}
+	.promo__text {
+		padding-left: 0;
 	}
 }
 
@@ -504,6 +579,13 @@ button {
 	}
 	.quality__slider {
 		width: 880px;
+	}
+	.promo__inner {
+		justify-content: space-between;
+		gap: 0;
+	}
+	.contacts__img {
+		width: 335px;
 	}
 }
 
@@ -688,6 +770,30 @@ button {
 	.quality__slider {
 		width: 600px;
 	}
+	.promo {
+		padding: 66px 0;
+	}
+	.promo__text {
+		font-size: 15px;
+	}
+	.promo__link {
+		font-size: 12px;
+	}
+	.form {
+		width: 400px;
+		padding: 30px 20px;
+	}
+	.form__title {
+		font-size: 15px;
+		margin-bottom: 20px;
+	}
+	.contacts__img {
+		width: 187px;
+		object-fit: cover;
+	}
+	.form__btn {
+		margin-top: 10px;
+	}
 }
 
 @media (max-width: 640px) {
@@ -827,27 +933,6 @@ button {
 	.mentors {
 		margin-bottom: 50px;
 	}
-	.reviews__item {
-		grid-template-columns: auto;
-		text-align: center;
-	}
-	.reviews__slider {
-		width: 250px;
-		margin: 0 auto;
-	}
-	.reviews__item-img {
-		width: 250px;
-		margin: 0 auto 20px;
-	}
-	.reviews__item-video {
-		width: 250px;
-	}
-	.reviews__btn {
-		bottom: 0;
-		left: 0;
-		margin: 0 auto;
-		max-width: 100px;
-	}
 	.reviews__content .swiper-pagination {
 		text-align: center;
 	}
@@ -857,9 +942,39 @@ button {
 	.reviews__slider {
 		width: 440px;
 	}
+	.reviews__item-text {
+		font-size: 8px;
+	}
+	.reviews__item-video {
+		width: 150px;
+	}
+	.reviews__item-img {
+		width: 150px;
+	}
 	.quality__slider {
 		width: 440px;
 		margin: 0 auto;
+	}
+	.promo {
+		padding: 42px 0;
+	}
+	.contacts__img {
+		display: none;
+	}
+	.form__input::placeholder {
+		font-size: 10px;
+	}
+	.contacts {
+		padding-top: 50px;
+	}
+	.form__btn {
+		font-size: 8px;
+		padding: 16px 13px;
+	}
+	.promo__link {
+		font-size: 8px;
+		padding: 12px 14px;
+		min-width: 80px;
 	}
 }
 
@@ -973,7 +1088,31 @@ button {
 	.creating__text {
 		font-size: 6px;
 	}
+	.reviews__item {
+		grid-template-columns: auto;
+		text-align: center;
+	}
+	.reviews__slider {
+		width: 250px;
+		margin: 0 auto;
+	}
+	.reviews__item-img {
+		width: 250px;
+		margin: 0 auto 20px;
+	}
+	.reviews__item-video {
+		width: 250px;
+	}
+	.reviews__btn {
+		bottom: 0;
+		left: 0;
+		margin: 0 auto;
+		max-width: 100px;
+	}
 	.quality__slider {
 		width: 200px;
+	}
+	.promo__text {
+		max-width: 210px;
 	}
 }
