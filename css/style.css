@@ -447,6 +447,9 @@ button {
 		width: 129px;
 		object-fit: cover;
 	}
+	.reviews__slider {
+		width: 690px;
+	}
 }
 
 @media (max-width: 1000px) {
@@ -495,9 +498,6 @@ button {
 	}
 	.mentors__content {
 		gap: 30px 20px;
-	}
-	.reviews__slider {
-		width: 690px;
 	}
 	.quality__content img {
 		width: 280px;
@@ -576,6 +576,9 @@ button {
 	.courses__price {
 		padding: 12px 7px;
 		right: -8px;
+	}
+	.reviews__slider {
+		width: 650px;
 	}
 }
 
@@ -660,7 +663,6 @@ button {
 	}
 	.reviews__item-img {
 		width: 200px;
-		height: 200px;
 	}
 	.reviews__video-btn {
 		width: 50px;
@@ -679,6 +681,12 @@ button {
 	.reviews__btn {
 		font-size: 8px;
 		padding: 10px 20px;
+	}
+	.quality__content img {
+		width: 200px;
+	}
+	.quality__slider {
+		width: 600px;
 	}
 }
 
@@ -826,7 +834,11 @@ button {
 		width: 200px;
 	}
 	.reviews__slider {
-		width: 620px;
+		width: 440px;
+	}
+	.quality__slider {
+		width: 440px;
+		margin: 0 auto;
 	}
 }
 
@@ -939,5 +951,29 @@ button {
 	}
 	.creating__text {
 		font-size: 6px;
+	}
+	.reviews__item {
+		grid-template-columns: auto;
+		text-align: center;
+	}
+	.reviews__slider {
+		width: 250px;
+		margin: 0 auto;
+	}
+	.reviews__item-img {
+		width: 250px;
+		margin: 0 auto 20px;
+	}
+	.reviews__item-video {
+		width: 250px;
+	}
+	.reviews__btn {
+		bottom: 0;
+		left: 0;
+		margin: 0 auto;
+		max-width: 100px;
+	}
+	.quality__slider {
+		width: 200px;
 	}
 }
